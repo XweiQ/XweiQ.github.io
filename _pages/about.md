@@ -33,7 +33,7 @@ My research interest focuses on AI for Scientific Simulations and Representation
 
 **Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
 
-<u>Xiaowei Qian</u>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
+<b><u>Xiaowei Qian</u></b>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
 
 [[Paper]](https://arxiv.org/pdf/2403.06017) [[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
 
@@ -45,9 +45,9 @@ My research interest focuses on AI for Scientific Simulations and Representation
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/cover_AAAI24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)**
+**Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
 
-<u>Xiaowei Qian</u>\*, Bingheng Li\*, Zhao Kang
+<b><u>Xiaowei Qian</u></b>\*, Bingheng Li\*, Zhao Kang
 
 [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29383) [[Code]](https://github.com/XweiQ/BTGF)
 
