@@ -38,6 +38,8 @@ My research interest focuses on AI for Scientific Simulations and Representation
 [[Paper]](https://arxiv.org/pdf/2403.06017) [[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
 
 **TL;DR:** We proposed synthetic and semi-synthetic datasets with customizable bias and constructed two more meaningful real-world datasets from Twitter to address shortcomings in existing fair graph datasets.
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/cover_AAAI24.png' alt="sym" width="100%"></div></div>
@@ -50,6 +52,9 @@ My research interest focuses on AI for Scientific Simulations and Representation
 [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29383) [[Code]](https://github.com/XweiQ/BTGF)
 
 **TL;DR:** Aimed to alleviate representation collapse in unsupervised learning, we designed a filter that upper bounding Barlow Twins to facilitate the optimization of the loss function. 
+</div>
+</div>
+
 
 <!-- [Project](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
