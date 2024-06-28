@@ -33,9 +33,9 @@ My research interest focuses on AI for Scientific Simulations and Representation
 
 **Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
 
-<u>Xiaowei Qian</u>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma.
+<u>Xiaowei Qian</u>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
 
-[[Paper]](https://arxiv.org/pdf/2403.06017)[[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
+[[Paper]](https://arxiv.org/pdf/2403.06017) [[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
 
 **TL;DR:** We proposed synthetic and semi-synthetic datasets with customizable bias and constructed two more meaningful real-world datasets from Twitter to address shortcomings in existing fair graph datasets.
 
@@ -47,7 +47,7 @@ My research interest focuses on AI for Scientific Simulations and Representation
 
 <u>Xiaowei Qian</u>\*, Bingheng Li\*, Zhao Kang
 
-[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29383)[[Code]](https://github.com/XweiQ/BTGF)
+[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29383) [[Code]](https://github.com/XweiQ/BTGF)
 
 **TL;DR:** Aimed to alleviate representation collapse in unsupervised learning, we designed a filter that upper bounding Barlow Twins to facilitate the optimization of the loss function. 
 
