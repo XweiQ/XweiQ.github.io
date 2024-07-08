@@ -17,12 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University (AI direction in Department of Engineering), working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC). My undergraduate research advisor is [Prof. Zhao Kang](https://zhaokang.site/).
+# ✨ About
+
+Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC). My undergraduate research advisor is [Prof. Zhao Kang](https://zhaokang.site/).
 
 My research interest focuses on AI for Scientific Simulations and Representation Learning.
 
-
 <!-- # 🔥 News
+
 - *2024.05*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2023.12*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
