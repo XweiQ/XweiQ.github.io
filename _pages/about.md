@@ -24,8 +24,8 @@ Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake Unive
 
 # 🔍 Research
 My research interest currently focuses on:
-- Safe Generative Models
-- Trustworthy AI
+- Trustworthy Graph Learning and LLM
+- AI for Science (e.g.: dynamic system)
 - Self-supervised Graph Learning
 
 <!-- # 🔥 News
