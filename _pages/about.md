@@ -19,7 +19,7 @@ redirect_from:
 
 # ✨ About
 
-Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC). My undergraduate research advisor is [Prof. Zhao Kang](https://zhaokang.site/).
+Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC). My undergraduate research advisor is [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
 
 My research interest focuses on AI for Scientific Simulations and Representation Learning.
 
@@ -30,7 +30,21 @@ My research interest focuses on AI for Scientific Simulations and Representation
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src='images/cover_KDD24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Workshop SafeGenAI</div><img src='images/cover_nips24.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A PROBABILISTIC GENERATIVE METHOD FOR SAFE PHYSICAL SYSTEM CONTROL PROBLEMS**
+
+Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
+
+[[Paper]]()
+
+**TL;DR:** To solve safe PDE control problems, we propose Safe Conformal Physical system control (SafeConPhy), which iteratively improves model safety with a provable safety bound.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src='images/cover_KDD24.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
@@ -78,5 +92,5 @@ My research interest focuses on AI for Scientific Simulations and Representation
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2023.09 - 2024.02*, Research Intern, [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/) at [RPI](https://www.rpi.edu/), working on Trustworthy ML, supervied by [Prof. Yao Ma](https://yaoma24.github.io/).
-- *2022.09 - 2023.09*, Research Intern, Cognitive Computing and Intelligent Decision Lab at [UESTC](https://www.uestc.edu.cn/), working on Graph Representation Learning, supervied by [Prof. Zhao Kang](https://zhaokang.site/).
+- *2023.09 - 2024.02*, Research Intern, [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/) at [RPI](https://www.rpi.edu/), working on Trustworthy ML, supervied by [Prof. Yao Ma](https://scholar.google.com/citations?hl=en&user=wf9TTOIAAAAJ).
+- *2022.09 - 2023.09*, Research Intern, Cognitive Computing and Intelligent Decision Lab at [UESTC](https://www.uestc.edu.cn/), working on Graph Representation Learning, supervied by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
