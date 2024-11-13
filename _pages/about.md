@@ -34,8 +34,7 @@ My research interest currently focuses on:
 - *2023.12*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications
-* Equal Contribution
-
+\* Equal Contribution
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
 <div class='paper-box-text' markdown="1">
 
