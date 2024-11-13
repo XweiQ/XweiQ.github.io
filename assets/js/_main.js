@@ -96,12 +96,3 @@ $(document).ready(function(){
   });
 
 });
-
-window.addEventListener('load', function() {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.id = 'clustrmaps';
-  script.src = '//clustrmaps.com/map_v2.js?d=kgDgySmuZpxpjnpa9VzLMQ8yFEnQrKJAL7xI-aLopRc&cl=ffffff&w=a';
-  document.querySelector('.page__footer').appendChild(script);
-});
-
