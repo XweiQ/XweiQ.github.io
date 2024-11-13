@@ -20,7 +20,7 @@ redirect_from:
 # About
 Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC), supervised by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
 
-✨ I'm actively applying for a Ph.D. position in 2025 Fall! Here is my [CV](https://github.com/XweiQ/XweiQ.github.io/blob/main/docs/Xiaowei_PhD_Application.pdf)
+✨ I'm actively applying for a Ph.D. position in 2025 Fall! Here is my [CV](https://github.com/XweiQ/XweiQ.github.io/blob/main/docs/Xiaowei_PhD_Application.pdf).
 
 # 🔍 Research
 My research interest currently focuses on:
