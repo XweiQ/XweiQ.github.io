@@ -3,7 +3,7 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  -title: "Research"
+  - title: "Research"
     url: "/#-research"
 
   # - title: "News"
