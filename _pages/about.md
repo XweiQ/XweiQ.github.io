@@ -25,7 +25,7 @@ I'm actively applying for a Ph.D. position in 2025 Fall!
 # 🔍 Research
 My research interest currently focuses on:
 - Safe Generative Models
-- Trustworthy Graph Learning
+- Trustworthy AI
 - Self-supervised Graph Learning
 
 <!-- # 🔥 News
@@ -36,12 +36,14 @@ My research interest currently focuses on:
 # 📝 Publications
 * Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Workshop SafeGenAI</div><img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A PROBABILISTIC GENERATIVE METHOD FOR SAFE PHYSICAL SYSTEM CONTROL PROBLEMS**
 
 Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
+
+**NeurIPS Workshop** on Safe Generative AI, 2024
 
 [[Paper]](https://github.com/XweiQ/XweiQ.github.io/blob/main/docs/Conformal_diffusion_control_Neurips_SafeGenAi_Workshop_2024.pdf)
 
@@ -53,8 +55,7 @@ Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">KDD 2024</div>
-        <img src='images/cover_KDD24.png' alt="sym" style="max-width: 100%; height: auto;">
+      <img src='images/cover_KDD24.png' alt="sym" style="max-width: 100%; height: auto;">
     </div>
   </div>
   
@@ -64,6 +65,8 @@ Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, 
 
   <b><u>Xiaowei Qian</u></b>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
 
+  Conference on Knowledge Discovery and Data Mining (**KDD**), 2024
+
   [[Paper]](https://arxiv.org/pdf/2403.06017) [[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
 
   **TL;DR:** We proposed synthetic and semi-synthetic datasets with customizable bias and constructed two more meaningful real-world datasets from Twitter to address shortcomings in existing fair graph datasets.
@@ -71,12 +74,14 @@ Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
 
 <b><u>Xiaowei Qian</u></b>\*, Bingheng Li\*, Zhao Kang
+
+Annual AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 
 [[Paper]](https://arxiv.org/abs/2312.14066) [[Code]](https://github.com/XweiQ/BTGF)
 
