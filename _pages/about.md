@@ -18,10 +18,15 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # ✨ About
+Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC), supervised by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
 
-Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC). My undergraduate research advisor is [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
+I'm actively applying for a Ph.D. position in 2025 Fall!
 
-My research interest focuses on AI for Scientific Simulations and Representation Learning.
+# 🔍 Research
+My research interest currently focuses on:
+- Safe Generative Models
+- Trustworthy Graph Learning
+- Self-supervised Graph Learning
 
 <!-- # 🔥 News
 
@@ -29,43 +34,51 @@ My research interest focuses on AI for Scientific Simulations and Representation
 - *2023.12*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications
+* Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Workshop SafeGenAI</div><img src='images/cover_nips24.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Workshop SafeGenAI</div><img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A PROBABILISTIC GENERATIVE METHOD FOR SAFE PHYSICAL SYSTEM CONTROL PROBLEMS**
 
 Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
 
-[[Paper]]()
+[[Paper]](https://github.com/XweiQ/XweiQ.github.io/blob/main/docs/Conformal_diffusion_control_Neurips_SafeGenAi_Workshop_2024.pdf)
 
 **TL;DR:** To solve safe PDE control problems, we propose Safe Conformal Physical system control (SafeConPhy), which iteratively improves model safety with a provable safety bound.
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src='images/cover_KDD24.png' alt="sym" width="80%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">KDD 2024</div>
+        <img src='images/cover_KDD24.png' alt="sym" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+  
+  <div class='paper-box-text' markdown="1">
 
-**Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
+  **Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
 
-<b><u>Xiaowei Qian</u></b>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
+  <b><u>Xiaowei Qian</u></b>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
 
-[[Paper]](https://arxiv.org/pdf/2403.06017) [[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
+  [[Paper]](https://arxiv.org/pdf/2403.06017) [[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
 
-**TL;DR:** We proposed synthetic and semi-synthetic datasets with customizable bias and constructed two more meaningful real-world datasets from Twitter to address shortcomings in existing fair graph datasets.
+  **TL;DR:** We proposed synthetic and semi-synthetic datasets with customizable bias and constructed two more meaningful real-world datasets from Twitter to address shortcomings in existing fair graph datasets.
+  </div>
 </div>
-</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/cover_AAAI24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
 
 <b><u>Xiaowei Qian</u></b>\*, Bingheng Li\*, Zhao Kang
 
-[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29383) [[Code]](https://github.com/XweiQ/BTGF)
+[[Paper]](https://arxiv.org/abs/2312.14066) [[Code]](https://github.com/XweiQ/BTGF)
 
 **TL;DR:** Aimed to alleviate representation collapse in unsupervised learning, we designed a filter that upper bounding Barlow Twins to facilitate the optimization of the loss function. 
 </div>
@@ -91,6 +104,7 @@ Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, 
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-# 💻 Internships
-- *2023.09 - 2024.02*, Research Intern, [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/) at [RPI](https://www.rpi.edu/), working on Trustworthy ML, supervied by [Prof. Yao Ma](https://scholar.google.com/citations?hl=en&user=wf9TTOIAAAAJ).
-- *2022.09 - 2023.09*, Research Intern, Cognitive Computing and Intelligent Decision Lab at [UESTC](https://www.uestc.edu.cn/), working on Graph Representation Learning, supervied by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
+# 💻 Experiences
+- *2024.07 - present*, Visiting Student, [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/) at Westlake University, working on Safe PDE control, supervised by [Prof. Tailin Wu](https://tailin.org/).
+- *2023.09 - 2024.02*, Research Intern, [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/) at [RPI](https://www.rpi.edu/), working on Trustworthy ML, supervised by [Prof. Yao Ma](https://scholar.google.com/citations?hl=en&user=wf9TTOIAAAAJ).
+- *2022.09 - 2023.09*, Research Intern, Cognitive Computing and Intelligent Decision Lab at [UESTC](https://www.uestc.edu.cn/), working on Graph Representation Learning, supervised by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
