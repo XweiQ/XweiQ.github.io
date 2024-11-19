@@ -20,7 +20,7 @@ redirect_from:
 # About
 Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC), supervised by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
 
-✨ I'm actively applying for a Ph.D. position in 2025 Fall! Here is my [CV](https://github.com/XweiQ/XweiQ.github.io/blob/main/docs/Xiaowei_PhD_Application.pdf).
+✨ I'm actively applying for a Ph.D. position in 2025 Fall! Here is my [CV](https://drive.google.com/file/d/143EK5Oq0Yg2d5AdkaNW2UxBHJEvwwRKz/view?usp=drive_link).
 
 # 🔍 Research
 My research interest currently focuses on:
@@ -44,7 +44,7 @@ Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, 
 
 **NeurIPS Workshop** on Safe Generative AI, 2024
 
-[[Paper]](https://github.com/XweiQ/XweiQ.github.io/blob/main/docs/Conformal_diffusion_control_Neurips_SafeGenAi_Workshop_2024.pdf)
+[[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
 
 **TL;DR:** To solve safe PDE control problems, we propose Safe Conformal Physical system control (SafeConPhy), which iteratively improves model safety with a provable safety bound.
 </div>
