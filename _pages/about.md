@@ -40,7 +40,7 @@ My research interest currently focuses on:
 
 **A PROBABILISTIC GENERATIVE METHOD FOR SAFE PHYSICAL SYSTEM CONTROL PROBLEMS**
 
-Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
+Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
 
 **NeurIPS Workshop** on Safe Generative AI, 2024
 
@@ -62,7 +62,7 @@ Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, 
 
   **Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
 
-  <b><u>Xiaowei Qian</u></b>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
+  <u>Xiaowei Qian</u>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
 
   Conference on Knowledge Discovery and Data Mining (**KDD**), 2024
 
@@ -78,7 +78,7 @@ Peiyan Hu\*, <b><u>Xiaowei Qian</u></b>\*, Wenhao Deng, Rui Wang, Haodong Feng, 
 
 **Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
 
-<b><u>Xiaowei Qian</u></b>\*, Bingheng Li\*, Zhao Kang
+<u>Xiaowei Qian</u>\*, Bingheng Li\*, Zhao Kang
 
 Annual AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 
