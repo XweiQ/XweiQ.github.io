@@ -48,22 +48,28 @@ Under Review
 
 **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div> -->
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <!-- <div class='paper-box-image'>
+    <div>
+      <img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;">
+    </div>
+  </div> -->
+  
+  <div class='paper-box-text' markdown="1">
 
-**A Probabilistic Generative Method for Safe Physical System Control Problems**
+  **A Probabilistic Generative Method for Safe Physical System Control Problems**
 
-Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
+  Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
 
-**NeurIPS Workshop** on Safe Generative AI, 2024
+  **NeurIPS Workshop** on Safe Generative AI, 2024
 
-[[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
+  [[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
+  </div>
 </div>
-</div>
 
 
-<!-- <div class='paper-box'>
-  <div class='paper-box-image'>
+<div class='paper-box'>
+  <!-- <div class='paper-box-image'>
     <div>
       <img src='images/cover_KDD24.png' alt="sym" style="max-width: 100%; height: auto;">
     </div>
