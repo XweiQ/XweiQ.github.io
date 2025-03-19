@@ -55,7 +55,7 @@ Under Review
     </div>
   </div> -->
   
-  <div class='paper-box-text' markdown="1">
+  <!-- <div class='paper-box-text' markdown="1"> -->
 
   **A Probabilistic Generative Method for Safe Physical System Control Problems**
 
@@ -64,7 +64,7 @@ Under Review
   **NeurIPS Workshop** on Safe Generative AI, 2024
 
   [[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
-  </div>
+  <!-- </div> -->
 </div>
 
 
