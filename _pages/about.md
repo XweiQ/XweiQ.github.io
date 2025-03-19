@@ -18,15 +18,15 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Prof. Tailin Wu](https://tailin.org/) at [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/). Before this, I received my B. Eng. degree at the University of Electronic Science and Technology of China (UESTC), supervised by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
+Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Tailin Wu](https://tailin.org/). I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC), where I was advised by [Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en). Previously, I also worked on research projects in collaboration with [Yao Ma](https://scholar.google.com/citations?hl=en&user=wf9TTOIAAAAJ).
 
-✨ I'm actively applying for a Ph.D. position in 2025 Fall! Here is my [CV](https://drive.google.com/file/d/143EK5Oq0Yg2d5AdkaNW2UxBHJEvwwRKz/view?usp=drive_link).
+✨ I'm actively applying for a Ph.D. position in 2025 Fall! Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link).
 
 # 🔍 Research
 My research interest currently focuses on:
-- Trustworthy Graph Learning and LLM
+- Large Language Models
+- Trustworthy AI
 - AI for Science (e.g.: dynamic system)
-- Self-supervised Graph Learning
 
 <!-- # 🔥 News
 
@@ -35,28 +35,39 @@ My research interest currently focuses on:
 
 # 📝 Publications
 \* Equal Contribution
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
+
 <div class='paper-box-text' markdown="1">
 
-**A PROBABILISTIC GENERATIVE METHOD FOR SAFE PHYSICAL SYSTEM CONTROL PROBLEMS**
+**From Uncertain to Safe: Conformal Adaptation of Diffusion Models for Safe PDE Control**
+
+Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
+
+Under Review
+
+[[Paper]](https://arxiv.org/pdf/2502.02205)
+
+**TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases
+
+<!-- <div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div> -->
+<div class='paper-box-text' markdown="1">
+
+**A Probabilistic Generative Method for Safe Physical System Control Problems**
 
 Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
 
 **NeurIPS Workshop** on Safe Generative AI, 2024
 
 [[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
-
-**TL;DR:** To solve safe PDE control problems, we propose Safe Conformal Physical system control (SafeConPhy), which iteratively improves model safety with a provable safety bound.
 </div>
 </div>
 
 
-<div class='paper-box'>
+<!-- <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <img src='images/cover_KDD24.png' alt="sym" style="max-width: 100%; height: auto;">
     </div>
-  </div>
+  </div> -->
   
   <div class='paper-box-text' markdown="1">
 
@@ -73,7 +84,7 @@ Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi F
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div> -->
 <div class='paper-box-text' markdown="1">
 
 **Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
