@@ -38,15 +38,17 @@ My research interest currently focuses on:
 
 <div class='paper-box-text' markdown="1">
 
-**From Uncertain to Safe: Conformal Adaptation of Diffusion Models for Safe PDE Control**
+  **From Uncertain to Safe: Conformal Adaptation of Diffusion Models for Safe PDE Control**
 
-Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
+  Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
 
-Under Review
+  Under Review
 
-[[Paper]](https://arxiv.org/pdf/2502.02205)
+  [[Paper]](https://arxiv.org/pdf/2502.02205)
 
-**TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases
+  **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases
+</div>
+
 
 <div class='paper-box'>
   <!-- <div class='paper-box-image'>
@@ -55,7 +57,7 @@ Under Review
     </div>
   </div> -->
   
-  <!-- <div class='paper-box-text' markdown="1"> -->
+  <div class='paper-box-text' markdown="1">
 
   **A Probabilistic Generative Method for Safe Physical System Control Problems**
 
@@ -64,7 +66,7 @@ Under Review
   **NeurIPS Workshop** on Safe Generative AI, 2024
 
   [[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
-  <!-- </div> -->
+  </div>
 </div>
 
 
@@ -90,19 +92,25 @@ Under Review
 </div>
 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;"></div></div> -->
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+  
+  <div class='paper-box-text' markdown="1">
 
-**Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
+  **Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
 
-<u>Xiaowei Qian</u>\*, Bingheng Li\*, Zhao Kang
+  <u>Xiaowei Qian</u>\*, Bingheng Li\*, Zhao Kang
 
-Annual AAAI Conference on Artificial Intelligence (**AAAI**), 2024
+  Annual AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 
-[[Paper]](https://arxiv.org/abs/2312.14066) [[Code]](https://github.com/XweiQ/BTGF)
+  [[Paper]](https://arxiv.org/abs/2312.14066) [[Code]](https://github.com/XweiQ/BTGF)
 
-**TL;DR:** Aimed to alleviate representation collapse in unsupervised learning, we designed a filter that upper bounding Barlow Twins to facilitate the optimization of the loss function. 
-</div>
+  **TL;DR:** Aimed to alleviate representation collapse in unsupervised learning, we designed a filter that upper bounding Barlow Twins to facilitate the optimization of the loss function. 
+  </div>
 </div>
 
 
