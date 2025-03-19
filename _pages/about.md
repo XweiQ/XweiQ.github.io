@@ -24,8 +24,8 @@ Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake Unive
 
 # 🔍 Research
 My research interest currently focuses on:
-- Large Language Models
-- Trustworthy AI
+- Large Language Models, Multi-Agent Systems
+- Trustworthy AI: Safety, Fairness, Robustness
 - AI for Science (e.g.: dynamic system)
 
 <!-- # 🔥 News
@@ -37,6 +37,13 @@ My research interest currently focuses on:
 \* Equal Contribution
 
 <div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/cover_SafeDiffCon.png' alt="sym" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
 
   **From Uncertain to Safe: Conformal Adaptation of Diffusion Models for Safe PDE Control**
 
@@ -46,16 +53,17 @@ My research interest currently focuses on:
 
   [[Paper]](https://arxiv.org/pdf/2502.02205)
 
-  **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases
+  **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases.
+  </div>
 </div>
 
 
 <div class='paper-box'>
-  <!-- <div class='paper-box-image'>
+  <div class='paper-box-image'>
     <div>
       <img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;">
     </div>
-  </div> -->
+  </div>
   
   <div class='paper-box-text' markdown="1">
 
@@ -71,12 +79,12 @@ My research interest currently focuses on:
 
 
 <div class='paper-box'>
-  <!-- <div class='paper-box-image'>
+  <div class='paper-box-image'>
     <div>
       <img src='images/cover_KDD24.png' alt="sym" style="max-width: 100%; height: auto;">
     </div>
-  </div> -->
-  
+  </div>
+
   <div class='paper-box-text' markdown="1">
 
   **Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
