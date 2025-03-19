@@ -36,7 +36,7 @@ My research interest currently focuses on:
 # 📝 Publications
 \* Equal Contribution
 
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
 
   **From Uncertain to Safe: Conformal Adaptation of Diffusion Models for Safe PDE Control**
 
