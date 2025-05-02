@@ -49,7 +49,7 @@ My research interest currently focuses on:
 
   Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
 
-  Under Review
+  International Conference on Machine Learning (**ICML**), 2025
 
   [[Paper]](https://arxiv.org/pdf/2502.02205)
 
@@ -58,7 +58,7 @@ My research interest currently focuses on:
 </div>
 
 
-<div class='paper-box'>
+<!-- <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;">
@@ -75,7 +75,7 @@ My research interest currently focuses on:
 
   [[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
   </div>
-</div>
+</div> -->
 
 
 <div class='paper-box'>
