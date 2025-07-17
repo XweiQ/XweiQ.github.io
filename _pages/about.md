@@ -18,15 +18,12 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-Hi! My name is Xiaowei Qian. I am currently a visiting student at Westlake University, working with [Tailin Wu](https://tailin.org/). I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC), where I was advised by [Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en). Previously, I also worked on research projects in collaboration with [Yao Ma](https://scholar.google.com/citations?hl=en&user=wf9TTOIAAAAJ).
-
-✨ I'm actively applying for a Ph.D. position in 2025 Fall! Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link).
+Hi! My name is Xiaowei Qian. I am a incoming PhD student at City University of Hong Kong supurvised by Prof. [Xiangyu Zhao(https://zhaoxyai.github.io/)]. Before that, I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC). Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link).
 
 # 🔍 Research
 My research interest currently focuses on:
 - Large Language Models, Multi-Agent Systems
 - Trustworthy AI: Safety, Fairness, Robustness
-- AI for Science (e.g.: dynamic system)
 
 <!-- # 🔥 News
 
@@ -142,7 +139,7 @@ My research interest currently focuses on:
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Experiences
-- *2024.07 - present*, Visiting Student, [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/) at Westlake University, working on Safe PDE control, supervised by [Prof. Tailin Wu](https://tailin.org/).
+- *2024.07 - 2025.07*, Visiting Student, [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/) at Westlake University, working on Safe Generative Models, supervised by [Prof. Tailin Wu](https://tailin.org/).
 - *2023.09 - 2024.02*, Research Intern, [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/) at [RPI](https://www.rpi.edu/), working on Trustworthy ML, supervised by [Prof. Yao Ma](https://scholar.google.com/citations?hl=en&user=wf9TTOIAAAAJ).
 - *2022.09 - 2023.09*, Research Intern, Cognitive Computing and Intelligent Decision Lab at [UESTC](https://www.uestc.edu.cn/), working on Graph Representation Learning, supervised by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
 
