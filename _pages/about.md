@@ -18,13 +18,14 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-Hi! My name is Xiaowei Qian (钱骁威). I am an incoming PhD student at the City University of Hong Kong, supervised by Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
+Hi! My name is Xiaowei Qian (钱骁威). I am a 1st-year PhD student at the City University of Hong Kong, supervised by Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
 
 Previously, I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC) and was subsequently a visiting student at Westlake University, supervised by Prof. [Tailin Wu](https://tailin.org/). Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link).
 
 # 🔍 Research
 My research interest currently focuses on:
 - Large Language Models, Multi-Agent Systems
+- Information Retrieval, Deep Research
 - Trustworthy AI: Safety, Fairness, Robustness
 
 <!-- # 🔥 News
@@ -134,6 +135,7 @@ My research interest currently focuses on:
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
+- *2025.09 - present*, Ph.D. in Data Science, City University of Hong Kong
 - *2020.09 - 2024.06*, B. Eng. Degree in Computer Science, University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)).
 
 <!-- # 💬 Invited Talks
