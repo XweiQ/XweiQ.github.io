@@ -36,7 +36,7 @@ My research interest currently focuses on:
 # 📝 Publications
 \* Equal Contribution
 
-<!-- <div class='paper-box'>
+<div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <img src='images/cover_BuildArena.png' alt="sym" style="max-width: 100%; height: auto;">
@@ -51,11 +51,11 @@ My research interest currently focuses on:
 
   Preprint, 2025
 
-  [[Paper]](https://www.arxiv.org/pdf/2510.16559)
+  [[Website]](https://build-arena.github.io/) [[Paper]](https://www.arxiv.org/pdf/2510.16559) [[Code]](https://github.com/AI4Science-WestlakeU/safediffcon)
 
-  **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases.
+  <!-- **TL;DR:** . -->
   </div>
-</div> -->
+</div>
 
 
 <div class='paper-box'>
