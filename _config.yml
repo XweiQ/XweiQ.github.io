@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaowei Qian"
-description              : "Open New Frontiers!"
+description              : ""
 repository               : "XweiQ/XweiQ.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaowei Qian"
   avatar           : "images/handsome.png"
-  bio              : "Incoming PhD @ CityUHK"
+  bio              : "PhD Student @ CityUHK"
   location         : "Kowloon, Hong Kong"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=OZDAmwoAAAAJ"
-  email            : "xiaoweiqian0311@gmail.com"
+  email            : "xiaowqian2-c@my.cityu.edu.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

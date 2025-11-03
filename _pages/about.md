@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-Hi! My name is Xiaowei Qian (钱骁威). I am a 1st-year PhD student at the City University of Hong Kong, supervised by Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
+Hi! My name is Xiaowei Qian (钱骁威). I am a first-year PhD student at the City University of Hong Kong, supervised by Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
 
 Previously, I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC) and was subsequently a visiting student at Westlake University, supervised by Prof. [Tailin Wu](https://tailin.org/). Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link).
 
@@ -36,6 +36,28 @@ My research interest currently focuses on:
 # 📝 Publications
 \* Equal Contribution
 
+<!-- <div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/cover_BuildArena.png' alt="sym" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+
+  **BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction**
+
+  Tian Xia, Tianrun Gao, Wenhao Deng, Long Wei, <u>Xiaowei Qian</u>, Yixian Jiang, Chenglei Yu, Tailin Wu
+
+  Preprint, 2025
+
+  [[Paper]](https://www.arxiv.org/pdf/2510.16559)
+
+  **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases.
+  </div>
+</div> -->
+
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -51,7 +73,7 @@ My research interest currently focuses on:
 
   International Conference on Machine Learning (**ICML**), 2025
 
-  [[Paper]](https://arxiv.org/pdf/2502.02205)
+  [[Paper]](https://arxiv.org/pdf/2502.02205) [[Code]](https://github.com/AI4Science-WestlakeU/safediffcon)
 
   **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases.
   </div>
@@ -115,7 +137,7 @@ My research interest currently focuses on:
 
   Annual AAAI Conference on Artificial Intelligence (**AAAI**), 2024
 
-  [[Paper]](https://arxiv.org/abs/2312.14066) [[Code]](https://github.com/XweiQ/BTGF)
+  [[Paper]](https://arxiv.org/pdf/2312.14066) [[Code]](https://github.com/XweiQ/BTGF)
 
   **TL;DR:** Aimed to alleviate representation collapse in unsupervised learning, we designed a filter that upper bounding Barlow Twins to facilitate the optimization of the loss function. 
   </div>
