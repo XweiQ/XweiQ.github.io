@@ -20,7 +20,8 @@ redirect_from:
 # About
 Hi! My name is Xiaowei Qian (钱骁威). I am a first-year PhD student at the City University of Hong Kong, supervised by Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
 
-Previously, I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC) and was subsequently a visiting student at Westlake University, supervised by Prof. [Tailin Wu](https://tailin.org/). Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link).
+Previously, I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC) and was subsequently a visiting student at Westlake University, supervised by Prof. [Tailin Wu](https://tailin.org/). 
+<!-- Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link). -->
 
 # 🔍 Research
 My research interest currently focuses on:
