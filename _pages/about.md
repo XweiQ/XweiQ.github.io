@@ -25,7 +25,7 @@ Previously, I received my B.Eng. degree from the University of Electronic Scienc
 
 # 🔍 Research
 My research interest currently focuses on:
-- Large Language Models, Multi-Agent Systems
+- Long-context and Long-horizon LLM Agents
 - Information Retrieval, Deep Research
 - Trustworthy AI: Safety, Fairness, Robustness
 
@@ -48,7 +48,7 @@ My research interest currently focuses on:
 
   **BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction**
 
-  Tian Xia, Tianrun Gao, Wenhao Deng, Long Wei, <u>Xiaowei Qian</u>, Yixian Jiang, Chenglei Yu, Tailin Wu
+  Tian Xia, Tianrun Gao, Wenhao Deng, Long Wei, <u>Xiaowei Qian</u>, Chenglei Yu, Tailin Wu
 
   Preprint, 2025
 
