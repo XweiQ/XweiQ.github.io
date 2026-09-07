@@ -1,72 +1,56 @@
+# Xiaowei Qian — Academic Homepage
 
-<h1 align="center">
-AcadHomepage
-</h1>
+Personal academic website: [xweiq.github.io](https://xweiq.github.io/).
 
-<div align="center">
+Built with Jekyll and published through GitHub Pages. The current layout is adapted from [Arvid's Academic Homepage Template](https://github.com/Arvid-pku/Academic-Homepage-Template), with custom typography, publication lists, and a burgundy / ink-blue palette.
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
-</div>
+[中文说明](docs/README-zh.md)
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+## Content and structure
 
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
+- `_pages/about.md`: profile, biography, selected publications, education, and service.
+- `_data/publications.yml`: all papers, authors, venues, years, links, and distinctions. Set `selected: true` to include a paper on the homepage.
+- `_includes/arvid-paper.html`: shared publication entry, ordered as title, authors, then venue/year, distinction, and links.
+- `_pages/publications.html`: full publication list, grouped into Preprints and Conference.
+- `_pages/projects.html`, `_pages/cv.html`: intentionally empty apart from headings. Blogs and Photography retain navigation entries and placeholders.
+- `_config.yml`: identity, email, social links, and site metadata.
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+## Appearance
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+`assets/css/arvid/typography.css` contains the shared settings:
 
-## Quick Start
+- `--nav-color` / `--nav-active-color`: navigation, name, page and section headings, full-list link, and distinctions.
+- `--primary-color` / `--secondary-color`: publication titles and other content links.
+- `--font-heading`, `--font-body`, `--font-ui`: Palatino headings/body and Gill Sans interface text.
+- `--title-size`, `--section-size`, `--body-size`: type scale.
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+`assets/css/arvid/shared-styles.css` controls the common page width and gutters; `homepage.css` controls profile and education layout.
 
-## Debug Locally
+Dark mode is temporarily disabled: the toggle is commented out in `assets/js/arvid/site-shell.js`, and `initializeDarkMode()` is commented out in both `_layouts/home.html` and `_layouts/arvid-page.html`. Restore both to re-enable it; the saved dark palette should be reviewed alongside any new light palette.
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+## Local preview
 
-# Acknowledges
+With Ruby, Bundler, and Jekyll dependencies installed:
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1 --port 4000
+```
+
+For the existing local environment with Jekyll already installed:
+
+```sh
+JEKYLL_NO_BUNDLER_REQUIRE=true jekyll serve \
+  --destination /Users/silver/.cache/blog-preview/manual-site \
+  --host 127.0.0.1 --port 4001
+```
+
+Open the corresponding localhost port. The watch server rebuilds after edits; refresh the browser to see changes.
+
+## Publishing
+
+Commit and push to `main`; check the repository's **pages build and deployment** run in GitHub Actions. CSS and JavaScript URLs contain a build timestamp so a new deployment requests fresh assets. If an already-open page still looks old, reload it (macOS: Command–Shift–R).
+
+## Sources and licenses
+
+See [upstream and adaptation notes](assets/css/arvid/UPSTREAM.md). The current design is based on Arvid, while some Jekyll infrastructure was retained from the earlier AcadHomepage-based site. Historical copyright notices remain in [LICENSE](LICENSE). Bundled ET Book files retain their own [license](assets/fonts/et-book/LICENSE); they are available for experiments and are not the current default font.
