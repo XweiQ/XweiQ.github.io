@@ -1,9 +1,14 @@
 /* Shared type scale and spacing rhythm. Keep page CSS focused on layout. */
 :root {
+  /* Navigation palette, independent of content links. */
+  --nav-color: #783448;
+  --nav-active-color: #50212E;
+  --nav-hover-bg: rgba(120, 52, 72, 0.08);
   /* Light palette: links, current navigation / hover, and hover surface. */
-  --primary-color: #914522;
-  --secondary-color: #683017;
-  --hover-bg: rgba(145, 69, 34, 0.08);
+  /* --primary-color: #914522; */
+  --primary-color: #3E596B;
+  --secondary-color: #29404F;
+  --hover-bg: rgba(62, 89, 107, 0.08);
   /* Independent roles: changing body type does not change headings or controls. */
   --font-heading: Palatino, 'Palatino Linotype', Georgia, 'Songti SC', serif;
   --font-body: Palatino, 'Palatino Linotype', Georgia, 'Songti SC', serif;
@@ -48,7 +53,7 @@ body p, body a, body strong, body button, body h1, body h2 { font-family: inheri
 #main-content strong { color: inherit; font-weight: 700; }
 #main-content .name, #main-content h1 {
   font-family: var(--font-heading); font-size: var(--title-size); line-height: 1.2;
-  font-weight: 700; color: var(--ink-color); margin: 0 0 var(--space-section);
+  font-weight: 700; color: var(--nav-color); margin: 0 0 var(--space-section);
 }
 #main-content .name {
   font-size: var(--title-size);
@@ -60,7 +65,7 @@ body p, body a, body strong, body button, body h1, body h2 { font-family: inheri
   font-family: var(--font-heading);
   font-size: var(--section-size); line-height: var(--body-leading);
   font-weight: 700; text-transform: none; letter-spacing: normal;
-  color: var(--ink-color); margin: 0 0 var(--space-paragraph);
+  color: var(--nav-color); margin: 0 0 var(--space-paragraph);
   padding: 0 0 var(--space-small); border-bottom: 1px solid var(--rule-color);
 }
 #main-content p { margin: 0 0 var(--space-paragraph); }
@@ -102,11 +107,13 @@ body p, body a, body strong, body button, body h1, body h2 { font-family: inheri
   overflow-wrap: anywhere;
 }
 
-/* Navigation follows the link palette; current page and hover use the deeper accent. */
-.nav-buttons .nav-button { color: var(--primary-color); }
+/* Navigation uses its own accent palette. */
+.nav-buttons .nav-button { color: var(--nav-color); }
 .nav-buttons .nav-button:hover,
 .nav-buttons .nav-button:focus-visible,
-.nav-buttons .nav-button[aria-current="page"] { color: var(--secondary-color); }
+.nav-buttons .nav-button[aria-current="page"] { color: var(--nav-active-color); }
+.nav-buttons .nav-button:hover { background-color: var(--nav-hover-bg); }
+.nav-buttons .nav-button[aria-current="page"]::after { background-color: var(--nav-active-color); }
 
 /* Separate year-to-links spacing from spacing around separators. */
 #main-content .paper-links {
@@ -124,4 +131,9 @@ body p, body a, body strong, body button, body h1, body h2 { font-family: inheri
   text-underline-offset: 2px;
 }
 
-#main-content .view-all { display: inline-block; margin-top: 8px; }
+#main-content .view-all { display: inline-block; margin-top: 8px; color: var(--nav-color); }
+#main-content .view-all:hover,
+#main-content .view-all:focus-visible { color: var(--nav-active-color); }
+
+
+#main-content .paper-distinction { color: var(--nav-color); font-weight: 400; }

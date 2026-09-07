@@ -2,7 +2,7 @@
       {% assign paper_link = paper.links | where: "label", "Paper" | first %}
       <div class="papertitle">{% if paper_link %}<a href="{{ paper_link.url | escape }}" target="_blank" rel="noopener">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</div>
       <div class="paper_rest"><span class="paper-authors">{{ paper.authors }}</span><br>
-        <span class="paper-venue">{{ paper.venue | escape }}{% if paper.distinction %} ({{ paper.distinction | escape }}){% endif %}, {{ paper.year }}</span><span class="paper-links">{% for link in paper.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% unless forloop.last %}<span class="paper-link-separator" aria-hidden="true">|</span>{% endunless %}{% endfor %}</span>
+        <span class="paper-venue">{{ paper.venue | escape }} {{ paper.year }}{% if paper.distinction %} (<span class="paper-distinction">{{ paper.distinction | escape }}</span>){% endif %}</span><span class="paper-links">{% for link in paper.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% unless forloop.last %}<span class="paper-link-separator" aria-hidden="true">|</span>{% endunless %}{% endfor %}</span>
       </div>
       <div class="paper_bottom_space"></div>
     </li>
