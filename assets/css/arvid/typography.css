@@ -131,9 +131,9 @@ body p, body a, body strong, body button, body h1, body h2 { font-family: inheri
   text-underline-offset: 2px;
 }
 
-#main-content .view-all { display: inline-block; margin-top: 8px; color: var(--nav-color); }
+#main-content .view-all { display: inline-block; margin-top: 8px; color: var(--primary-color); }
 #main-content .view-all:hover,
-#main-content .view-all:focus-visible { color: var(--nav-active-color); }
+#main-content .view-all:focus-visible { color: var(--secondary-color); }
 
 
 #main-content .paper-distinction { color: var(--nav-color); font-weight: 400; }
