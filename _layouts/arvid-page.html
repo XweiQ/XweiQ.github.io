@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <meta name="description" content="{{ page.description | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/css/arvid/stylesheet.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/arvid/shared-styles.css' | relative_url }}">
+  {% if page.arvid_style %}<link rel="stylesheet" href="{{ '/assets/css/arvid/' | append: page.arvid_style | append: '.css' | relative_url }}">{% endif %}
+  {% if page.title == 'Blogs' %}<link rel="stylesheet" href="{{ '/assets/css/arvid/blog-styles.css' | relative_url }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/arvid/typography.css' | relative_url }}">
+</head>
+<body{% if page.title == "Photography" %} data-footer-width="wide"{% endif %}>
+  <div id="site-nav"></div>
+  <main id="main-content" class="{{ page.main_class | default: 'main-content-wrapper page-shell' }}">{{ content }}</main>
+  <div id="site-footer"></div>
+  <script src="{{ '/assets/js/arvid/site-shell.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/arvid/utils.js' | relative_url }}"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Dark mode temporarily disabled; uncomment to restore with the navigation toggle.
+      // initializeDarkMode();
+      initializeBackToTop();
+    });
+  </script>
+  {% include analytics.html %}
+</body>
+</html>

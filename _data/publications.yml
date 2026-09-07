@@ -1,0 +1,170 @@
+[
+  {
+    "title": "R²-Searcher: Calibrating Retrieval and Reasoning Boundaries for Agentic Search",
+    "authors": "Sheng Zhang, Junyi Li, Wenlin Zhang, <strong>Xiaowei Qian</strong>, Yichao Wang, Yingyi Zhang, Maolin Wang, Yong Liu, Xiangyu Zhao",
+    "year": "2026",
+    "venue": "CIKM",
+    "url": "https://arxiv.org/abs/2606.28566",
+    "summary": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.28566"
+      }
+    ],
+    "selected": false
+  },
+  {
+    "title": "Towards Pareto-Optimal Tool-Integrated Agents with Pareto Ranking Policy Optimization",
+    "authors": "Junyi Li, <strong>Xiaowei Qian</strong>, Yingyi Zhang, Wenlin Zhang, Guojing Li, Sheng Zhang, Xiao Han, Yichao Wang, Xiangyu Zhao",
+    "year": "2026",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2606.16111",
+    "summary": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2606.16111"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Applied-Machine-Learning-Lab/ICML2026_ParetoPO"
+      }
+    ],
+    "selected": true,
+    "distinction": "Spotlight"
+  },
+  {
+    "title": "RAGR: Review-Augmented Generative Recommendation",
+    "authors": "Yingyi Zhang, Junyi Li, Yejing Wang, Wenlin Zhang, <strong>Xiaowei Qian</strong>, Sheng Zhang, Yue Feng, Yichao Wang, Yong Liu, Xiangyu Zhao, Xianneng Li",
+    "year": "2026",
+    "venue": "Preprint",
+    "url": "https://arxiv.org/abs/2605.17267",
+    "summary": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2605.17267"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Zhang-Yingyi/RAGR"
+      }
+    ],
+    "selected": false
+  },
+  {
+    "title": "MemSearch-o1: Empowering Large Language Models with Reasoning-Aligned Memory Growth in Agentic Search",
+    "authors": "Sheng Zhang, Junyi Li, Yingyi Zhang, Pengyue Jia, Yichao Wang, <strong>Xiaowei Qian</strong>, Wenlin Zhang, Maolin Wang, Yong Liu, Xiangyu Zhao",
+    "year": "2026",
+    "venue": "ACL",
+    "url": "https://aclanthology.org/2026.acl-long.41/",
+    "summary": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://aclanthology.org/2026.acl-long.41/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Applied-Machine-Learning-Lab/ACL2026_MemSearch-o1"
+      }
+    ],
+    "selected": false
+  },
+  {
+    "title": "BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction",
+    "url": "https://arxiv.org/abs/2510.16559",
+    "authors": "Tian Xia, Tianrun Gao, Wenhao Deng, Long Wei, <strong>Xiaowei Qian</strong>, Chenglei Yu, Tailin Wu",
+    "year": "2026",
+    "venue": "ICML",
+    "summary": "",
+    "links": [
+      {
+        "url": "https://www.arxiv.org/pdf/2510.16559",
+        "label": "Paper"
+      },
+      {
+        "url": "https://github.com/AI4Science-WestlakeU/BuildArena",
+        "label": "Code"
+      },
+      {
+        "url": "https://build-arena.github.io/",
+        "label": "Project"
+      }
+    ],
+    "selected": true
+  },
+  {
+    "title": "From Uncertain to Safe: Conformal Adaptation of Diffusion Models for Safe PDE Control",
+    "url": "https://arxiv.org/abs/2502.02205",
+    "authors": "Peiyan Hu*, <strong>Xiaowei Qian*</strong>, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu",
+    "year": "2025",
+    "venue": "ICML",
+    "summary": "Uncertainty quantification for diffusion-based PDE control under safety constraints, at both post-training and inference.",
+    "links": [
+      {
+        "url": "https://arxiv.org/pdf/2502.02205",
+        "label": "Paper"
+      },
+      {
+        "url": "https://github.com/AI4Science-WestlakeU/safediffcon",
+        "label": "Code"
+      }
+    ],
+    "selected": true
+  },
+  {
+    "title": "Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark",
+    "url": "https://arxiv.org/abs/2403.06017",
+    "authors": "<strong>Xiaowei Qian*</strong>, Zhimeng Guo*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma",
+    "year": "2024",
+    "venue": "KDD",
+    "summary": "Synthetic and semi-synthetic datasets with customizable bias, alongside two real-world datasets for evaluating fair graph learning.",
+    "links": [
+      {
+        "url": "https://arxiv.org/pdf/2403.06017",
+        "label": "Paper"
+      },
+      {
+        "url": "https://github.com/XweiQ/Benchmark-GraphFairness",
+        "label": "Code"
+      }
+    ],
+    "selected": true
+  },
+  {
+    "title": "Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering",
+    "url": "https://arxiv.org/abs/2312.14066",
+    "authors": "<strong>Xiaowei Qian*</strong>, Bingheng Li*, Zhao Kang",
+    "year": "2024",
+    "venue": "AAAI",
+    "summary": "A filter based on an upper bound of the Barlow Twins objective to address representation collapse in multi-relational clustering.",
+    "links": [
+      {
+        "url": "https://arxiv.org/pdf/2312.14066",
+        "label": "Paper"
+      },
+      {
+        "url": "https://github.com/XweiQ/BTGF",
+        "label": "Code"
+      }
+    ],
+    "selected": true
+  },
+  {
+    "title": "A Probabilistic Generative Method for Safe Physical System Control Problems",
+    "authors": "Peiyan Hu*, <strong>Xiaowei Qian*</strong>, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu",
+    "year": "2024",
+    "venue": "NeurIPS SafeGenAI Workshop",
+    "url": "https://openreview.net/pdf?id=OkPDLLNLnM",
+    "summary": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://openreview.net/pdf?id=OkPDLLNLnM"
+      }
+    ],
+    "selected": false
+  }
+]

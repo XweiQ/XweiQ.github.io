@@ -1,0 +1,19 @@
+/* Homepage layout. Type and spacing are defined in typography.css. */
+.profile-section { display: flex; align-items: center; gap: 32px; }
+.profile-text { flex: 1; min-width: 0; }
+.profile-photo { flex-shrink: 0; width: 160px; height: 160px; border: 1px solid var(--rule-color); }
+.news-list li { display: flex; gap: 16px; }
+.news-date { flex-shrink: 0; width: 160px; white-space: nowrap; font-weight: 700; }
+.news-list li > div { min-width: 0; }
+@media screen and (max-width: 768px) {
+  .profile-section { flex-direction: column-reverse; gap: 16px; }
+  .profile-text .name, .profile-text .pronunciation, .profile-links { text-align: center; }
+}
+@media screen and (max-width: 600px) {
+  .news-list li { flex-direction: column; gap: 0; }
+}
+
+/* Education reads as one continuous entry, wrapping only when the screen requires it. */
+#education .news-list li { display: block; }
+#education .news-date { display: inline-block; margin-right: 16px; }
+#education .news-list li > div { display: inline; }

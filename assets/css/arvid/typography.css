@@ -1,0 +1,127 @@
+/* Shared type scale and spacing rhythm. Keep page CSS focused on layout. */
+:root {
+  /* Light palette: links, current navigation / hover, and hover surface. */
+  --primary-color: #914522;
+  --secondary-color: #683017;
+  --hover-bg: rgba(145, 69, 34, 0.08);
+  /* Independent roles: changing body type does not change headings or controls. */
+  --font-heading: Palatino, 'Palatino Linotype', Georgia, 'Songti SC', serif;
+  --font-body: Palatino, 'Palatino Linotype', Georgia, 'Songti SC', serif;
+  --font-ui: 'Gill Sans', 'Gill Sans MT', Calibri, 'Helvetica Neue', Arial, sans-serif;
+  --body-size: 1rem;
+  --section-size: 24px;
+  --title-size: 36px;
+  --body-leading: 1.4;
+  --space-small: 4px;
+  --space-paragraph: 8px;
+  --space-section: 20px;
+  --ink-color: #262626;
+  --muted-color: #626974;
+  --paper-meta-color: #555d68;
+  --rule-color: #e5e7eb;
+}
+[data-theme="dark"] {
+  --primary-color: #9BC8B9;
+  --secondary-color: #CAE5DA;
+  --hover-bg: rgba(155, 200, 185, 0.12);
+  --ink-color: #e5e7eb;
+  --muted-color: #aeb5bf;
+  --paper-meta-color: #bbc1ca;
+  --rule-color: #374151;
+}
+body { font-family: var(--font-body); font-size: var(--body-size); line-height: var(--body-leading); color: var(--ink-color); }
+body p, body a, body strong, body button, body h1, body h2 { font-family: inherit; }
+#main-content { font-family: var(--font-body); font-size: var(--body-size); line-height: var(--body-leading); color: var(--ink-color); }
+#main-content p, #main-content li, #main-content .bio,
+#main-content .paper_rest, #main-content .papertitle,
+#main-content .paper-links,
+#main-content .profile-links, #main-content .pronunciation,
+#main-content .project-title, #main-content .project-description,
+#main-content .gallery-intro, #main-content .cv-contact {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--ink-color);
+}
+#main-content a { font-size: inherit; line-height: inherit; color: var(--primary-color); text-decoration: none; }
+#main-content a:hover, #main-content a:focus-visible { color: var(--secondary-color); }
+#main-content strong { color: inherit; font-weight: 700; }
+#main-content .name, #main-content h1 {
+  font-family: var(--font-heading); font-size: var(--title-size); line-height: 1.2;
+  font-weight: 700; color: var(--ink-color); margin: 0 0 var(--space-section);
+}
+#main-content .name {
+  font-size: var(--title-size);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-bottom: var(--space-small);
+}
+#main-content h2 {
+  font-family: var(--font-heading);
+  font-size: var(--section-size); line-height: var(--body-leading);
+  font-weight: 700; text-transform: none; letter-spacing: normal;
+  color: var(--ink-color); margin: 0 0 var(--space-paragraph);
+  padding: 0 0 var(--space-small); border-bottom: 1px solid var(--rule-color);
+}
+#main-content p { margin: 0 0 var(--space-paragraph); }
+#main-content .homepage-section, #main-content .profile-section,
+#main-content .publication-group { margin: 0 0 var(--space-section); }
+#main-content .homepage-section > :last-child { margin-bottom: 0; }
+#main-content .pronunciation { color: var(--ink-color); margin: 0 0 var(--space-paragraph); }
+#main-content .paper-authors, #main-content .paper-venue { color: var(--ink-color); }
+#main-content > .paper_rest, #main-content .homepage-section > .paper_rest { color: var(--muted-color); }
+#main-content ul.publication-list, #main-content ul.news-list { margin: 0 !important; padding: 0 !important; list-style: none; }
+#main-content ul.publication-list li, #main-content ul.news-list li { margin: 0 0 var(--space-paragraph) !important; padding: 0 !important; }
+#main-content ul.publication-list li:last-child, #main-content ul.news-list li:last-child { margin-bottom: 0 !important; }
+#main-content .publication-list .papertitle { font-weight: 700; margin: 0; }
+#main-content .publication-list .paper_rest, #main-content .news-list .paper_rest { margin: 0; }
+#main-content .paper_bottom_space { display: none; }
+.nav-buttons, .nav-buttons .nav-button, .theme-toggle, .site-footer { font-family: var(--font-ui); }
+.nav-buttons .nav-button { font-family: var(--font-ui); font-size: var(--body-size); line-height: var(--body-leading); }
+.site-footer .footer-copyright { font-family: var(--font-ui); font-size: .875rem; line-height: var(--body-leading); color: var(--muted-color); }
+
+/* Publication links share the content link palette. */
+#main-content .paper-links a,
+#main-content .paper-links a:visited {
+  color: var(--primary-color);
+}
+#main-content .paper-links a:hover,
+#main-content .paper-links a:focus-visible {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/* All page sections share the same second-level size. */
+#main-content .homepage-section h2,
+#main-content.about-page .about-section h2 {
+  font-size: var(--section-size);
+}
+
+#main-content .profile-email {
+  margin: 0 0 var(--space-paragraph);
+  overflow-wrap: anywhere;
+}
+
+/* Navigation follows the link palette; current page and hover use the deeper accent. */
+.nav-buttons .nav-button { color: var(--primary-color); }
+.nav-buttons .nav-button:hover,
+.nav-buttons .nav-button:focus-visible,
+.nav-buttons .nav-button[aria-current="page"] { color: var(--secondary-color); }
+
+/* Separate year-to-links spacing from spacing around separators. */
+#main-content .paper-links {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.1em;
+  margin-inline-start: 0.4em;
+}
+
+/* Identify the homepage owner without adding weight to the author list. */
+#main-content .paper-authors strong {
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+#main-content .view-all { display: inline-block; margin-top: 8px; }

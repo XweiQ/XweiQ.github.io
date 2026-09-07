@@ -1,0 +1,21 @@
+---
+layout: arvid-page
+title: Publications
+permalink: /publications.html
+arvid_style: publications
+main_class: main-content-wrapper page-shell
+---
+<h1 class="page-title">Publications</h1>
+<p class="paper_rest">* Equal contribution</p>
+<div class="publication-group">
+  <h2 id="preprints">Preprints</h2>
+  <ul id="preprints-list" class="publication-list">
+    {% for paper in site.data.publications %}{% if paper.venue == 'Preprint' %}{% include arvid-paper.html %}{% endif %}{% endfor %}
+  </ul>
+</div>
+<div class="publication-group">
+  <h2 id="conference">Conference</h2>
+  <ul id="publications-list" class="publication-list">
+    {% for paper in site.data.publications %}{% unless paper.venue == 'Preprint' %}{% include arvid-paper.html %}{% endunless %}{% endfor %}
+  </ul>
+</div>

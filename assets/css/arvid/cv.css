@@ -1,0 +1,75 @@
+.about-page h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 28px;
+    }
+
+    .cv-pdf-link {
+      font-size: 14px;
+      font-weight: 400;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    .cv-contact {
+      margin: -12px 0 24px;
+      font-size: 14px;
+      color: #374151;
+    }
+
+    .cv-contact a { color: var(--primary-color); }
+    .cv-contact .sep { color: #9ca3af; margin: 0 8px; }
+
+    [data-theme="dark"] .cv-contact { color: var(--text-color); }
+    [data-theme="dark"] .cv-contact .sep { color: #888; }
+
+    .about-section {
+      margin-bottom: 24px;
+    }
+
+    .about-section h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .about-page #research-experience-list,
+    .about-page #honors-list,
+    .about-page #teaching-list,
+    .about-page #talks-list,
+    .about-page #academic-services-list {
+      list-style: disc !important;
+      padding-left: 20px !important;
+      margin: 0 0 12px 0 !important;
+    }
+
+    .about-page li,
+    .about-section li,
+    .about-page .about-section li {
+      margin-bottom: 4px !important;
+      padding: 0 !important;
+      color: #374151;
+      line-height: 1.6;
+    }
+
+    .about-page p,
+    .about-section p,
+    .about-section li p {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    /* Dark mode */
+    [data-theme="dark"] .about-page h1 { color: var(--text-color); }
+    [data-theme="dark"] .about-section h2 {
+      color: var(--text-color);
+      border-bottom-color: #374151;
+    }
+    [data-theme="dark"] .about-section li,
+    [data-theme="dark"] .about-section li p { color: var(--text-color); }

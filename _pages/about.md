@@ -1,174 +1,70 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
+layout: home
+excerpt: "Research in LLM agents, information retrieval, and trustworthy AI."
+description: "Xiaowei Qian, Ph.D. candidate at City University of Hong Kong. Research in LLM agents, information retrieval, and trustworthy AI."
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
-# About
-Hi! My name is Xiaowei Qian (钱骁威). I am a first-year PhD student at the City University of Hong Kong, supervised by Prof. [Xiangyu Zhao](https://zhaoxyai.github.io/).
-
-Previously, I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC) and was subsequently a visiting student at Westlake University, supervised by Prof. [Tailin Wu](https://tailin.org/). 
-<!-- Here is my [CV](https://drive.google.com/file/d/1gG-U6Mi4fupyTgav2mgRP0oyNtFH_mkp/view?usp=drive_link). -->
-
-# 🔍 Research
-My research interest currently focuses on:
-- Long-context and Long-horizon LLM Agents
-- Information Retrieval, Deep Research
-- Trustworthy AI: Safety, Fairness, Robustness
-
-<!-- # 🔥 News
-
-- *2024.05*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2023.12*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-
-# 📝 Publications
-\* Equal Contribution
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/cover_BuildArena.png' alt="sym" style="max-width: 100%; height: auto;">
+<section class="profile-section" id="about-me" aria-labelledby="name">
+  <div class="profile-text">
+    <div class="name" id="name" role="heading" aria-level="1">Xiaowei Qian</div>
+    <div class="pronunciation">Ph.D. Candidate, City University of Hong Kong</div>
+    <div class="profile-email">{{ site.author.email }}</div>
+    <div class="profile-links">
+      <a href="mailto:{{ site.author.email }}">Email</a> /
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a> /
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
     </div>
   </div>
+  <img class="profile-photo" src="{{ '/images/handsome.png' | relative_url }}" alt="Xiaowei Qian" width="160" height="160">
+</section>
 
-  <div class='paper-box-text' markdown="1">
+<section class="homepage-section biography-section" id="biography" aria-labelledby="biography-title">
+  <h2 id="biography-title">Biography</h2>
+  <p class="bio">I am a Ph.D. candidate at the City University of Hong Kong, supervised by Prof. <a href="https://zhaoxyai.github.io/">Xiangyu Zhao</a>. Previously, I received my B.Eng. from the University of Electronic Science and Technology of China (UESTC) and was a visiting student at Westlake University, supervised by Prof. <a href="https://tailin.org/">Tailin Wu</a>.</p>
+  <p class="bio" id="research">My research interests include long-context and long-horizon LLM agents, information retrieval and deep research, and trustworthy AI, including safety, fairness, and robustness.</p>
+</section>
 
-  **BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction**
+<span id="-publications" class="legacy-anchor"></span>
+<section class="homepage-section" id="publications" aria-labelledby="publications-title">
+  <h2 id="publications-title">Selected Publications</h2>
+  <p class="paper_rest">* Equal contribution</p>
+  <ul class="publication-list">
+    {% for paper in site.data.publications %}
+    {% if paper.selected %}{% include arvid-paper.html %}{% endif %}
+    {% endfor %}
+  </ul>
+  <a href="{{ '/publications.html' | relative_url }}" class="view-all">View all publications &rarr;</a>
+</section>
 
-  Tian Xia, Tianrun Gao, Wenhao Deng, Long Wei, <u>Xiaowei Qian</u>, Chenglei Yu, Tailin Wu
+<span id="background" class="legacy-anchor"></span>
+<span id="-educations" class="legacy-anchor"></span>
+<section class="homepage-section" id="education" aria-labelledby="education-title">
+  <h2 id="education-title">Education</h2>
+  <ul class="news-list">
+    <li><span class="news-date">2025.09 – present</span><div>City University of Hong Kong, Ph.D. in Data Science</div></li>
+    <li><span class="news-date">2024.07 – 2025.07</span><div>Westlake University, Visiting Student</div></li>
+    <li><span class="news-date">2020.09 – 2024.06</span><div>University of Electronic Science and Technology of China, B.Eng. in Computer Science</div></li>
+  </ul>
+</section>
 
-  Preprint, 2025
+{% comment %}
+<span id="-experiences" class="legacy-anchor"></span>
+<span id="-internships" class="legacy-anchor"></span>
+<section class="homepage-section" id="experience" aria-labelledby="experience-title">
+  <h2 id="experience-title">Research experience</h2>
+  <ul class="news-list">
+        <li><span class="news-date">2024.07 – 2025.07</span><div><div>Westlake University · Visiting Student</div><div class="paper_rest"><a href="https://ai4s.lab.westlake.edu.cn/">AI for Scientific Simulation and Discovery Lab</a><br>Safe generative models · Prof. <a href="https://tailin.org/">Tailin Wu</a></div></div></li>
+        <li><span class="news-date">2023.09 – 2024.02</span><div><div>Rensselaer Polytechnic Institute · Research Intern</div><div class="paper_rest"><a href="https://dami-lab.github.io/">Data Analytics and Machine Intelligence Lab</a><br>Trustworthy ML · Prof. <a href="https://scholar.google.com/citations?hl=en&amp;user=wf9TTOIAAAAJ">Yao Ma</a></div></div></li>
+        <li><span class="news-date">2022.09 – 2023.09</span><div><div>UESTC · Research Intern</div><div class="paper_rest">Cognitive Computing and Intelligent Decision Lab<br>Graph representation learning · Prof. <a href="https://scholar.google.com/citations?user=T_yCaN4AAAAJ&amp;hl=en">Zhao Kang</a></div></div></li>
+      </ul>
+</section>
+{% endcomment %}
 
-  [[Website]](https://build-arena.github.io/) [[Paper]](https://www.arxiv.org/pdf/2510.16559) [[Code]](https://github.com/AI4Science-WestlakeU/safediffcon)
-
-  <!-- **TL;DR:** . -->
-  </div>
-</div>
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/cover_SafeDiffCon.png' alt="sym" style="max-width: 100%; height: auto;">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-  **From Uncertain to Safe: Conformal Adaptation of Diffusion Models for Safe PDE Control**
-
-  Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
-
-  International Conference on Machine Learning (**ICML**), 2025
-
-  [[Paper]](https://arxiv.org/pdf/2502.02205) [[Code]](https://github.com/AI4Science-WestlakeU/safediffcon)
-
-  **TL;DR:** Introduce the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases.
-  </div>
-</div>
-
-
-<!-- <div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/cover_nips24.png' alt="sym" style="max-width: 100%; height: auto;">
-    </div>
-  </div>
-  
-  <div class='paper-box-text' markdown="1">
-
-  **A Probabilistic Generative Method for Safe Physical System Control Problems**
-
-  Peiyan Hu\*, <u>Xiaowei Qian</u>\*, Wenhao Deng, Rui Wang, Haodong Feng, Ruiqi Feng, Tao Zhang, Long Wei, Yue Wang, Zhi-Ming Ma, Tailin Wu
-
-  **NeurIPS Workshop** on Safe Generative AI, 2024
-
-  [[Paper]](https://openreview.net/pdf?id=OkPDLLNLnM)
-  </div>
-</div> -->
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/cover_KDD24.png' alt="sym" style="max-width: 100%; height: auto;">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-  **Addressing Shortcomings in Fair Graph Learning Datasets: Towards a New Benchmark**
-
-  <u>Xiaowei Qian</u>\*, Zhimeng Guo\*, Jialiang Li, Haitao Mao, Bingheng Li, Suhang Wang, Yao Ma
-
-  Conference on Knowledge Discovery and Data Mining (**KDD**), 2024
-
-  [[Paper]](https://arxiv.org/pdf/2403.06017) [[Code]](https://github.com/XweiQ/Benchmark-GraphFairness)
-
-  **TL;DR:** We proposed synthetic and semi-synthetic datasets with customizable bias and constructed two more meaningful real-world datasets from Twitter to address shortcomings in existing fair graph datasets.
-  </div>
-</div>
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/cover_AAAI24.png' alt="sym" style="max-width: 100%; height: auto;">
-    </div>
-  </div>
-  
-  <div class='paper-box-text' markdown="1">
-
-  **Upper Bounding Barlow Twins: A Novel Filter for Multi-Relational Clustering**
-
-  <u>Xiaowei Qian</u>\*, Bingheng Li\*, Zhao Kang
-
-  Annual AAAI Conference on Artificial Intelligence (**AAAI**), 2024
-
-  [[Paper]](https://arxiv.org/pdf/2312.14066) [[Code]](https://github.com/XweiQ/BTGF)
-
-  **TL;DR:** Aimed to alleviate representation collapse in unsupervised learning, we designed a filter that upper bounding Barlow Twins to facilitate the optimization of the loss function. 
-  </div>
-</div>
-
-
-<!-- [Project](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> -->
-
-<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
-
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-
-# 📖 Educations
-- *2025.09 - present*, Ph.D. in Data Science, City University of Hong Kong
-- *2020.09 - 2024.06*, B. Eng. Degree in Computer Science, University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)).
-
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
-# 💻 Experiences
-- *2024.07 - 2025.07*, Visiting Student, [AI for Scientific Simulation and Discovery Lab](https://ai4s.lab.westlake.edu.cn/) at Westlake University, working on Safe Generative Models, supervised by [Prof. Tailin Wu](https://tailin.org/).
-- *2023.09 - 2024.02*, Research Intern, [Data Analytics and Machine Intelligence Lab](https://dami-lab.github.io/) at [RPI](https://www.rpi.edu/), working on Trustworthy ML, supervised by [Prof. Yao Ma](https://scholar.google.com/citations?hl=en&user=wf9TTOIAAAAJ).
-- *2022.09 - 2023.09*, Research Intern, Cognitive Computing and Intelligent Decision Lab at [UESTC](https://www.uestc.edu.cn/), working on Graph Representation Learning, supervised by [Prof. Zhao Kang](https://scholar.google.com/citations?user=T_yCaN4AAAAJ&hl=en).
-
-
-<dl><a href="https://clustrmaps.com/site/1c267"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=kgDgySmuZpxpjnpa9VzLMQ8yFEnQrKJAL7xI-aLopRc&cl=ffffff" /></a></dl>
+<section class="homepage-section" id="service" aria-labelledby="service-title">
+  <h2 id="service-title">Service</h2>
+  <p><strong>Reviewer:</strong> KDD 2026, CVPR 2026, WWW 2026, AAAI 2027.</p>
+</section>
